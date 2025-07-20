@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  color: black;
+  font-family: sans-serif;
+}
+
+.container {
+  max-width: 1239px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+  transition: 0.2s ease;
+}
+.link:hover {
+  color: orange;
+  transform: translateY(-7%);
+}
+
+.h2 {
+  text-decoration: none;
+  color: black;
+}
+
+.links {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+  font-size: 18px;
+}
+
+#btn, #btns {
+  width: 130px;
+  height: 41px;
+  border-radius: 8px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+#btn {
+  background-color: orange;
+  color: black;
+  transition: 0.2s ease;
+}
+#btn:hover{
+    background-color: rgb(176, 115, 0);
+    transform: translateY(-7%);
+}
+
+#btns {
+  background-color: black;
+  color: white;
+  transition: 0.2s ease;
+}
+#btns:hover{
+    background-color: rgb(54, 54, 54);
+    transform: translateY(-7%);
+}
+
+.karobka {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 80px;
+}
+
+.texts {
+  width: 350px;
+}
+
+p {
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+.nik {
+  width: 195px;
+  height: 53px;
+  border: none;
+  border-radius: 40px;
+  background-color: orange;
+  font-size: 16px;
+  transition: 0.2s ease;
+  cursor: pointer;
+}
+.nik:hover{
+    background-color: rgb(167, 108, 0);
+    transform: translateY(-7%);
+}
+
+/* === DARK MODE === */
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+.dark-mode header {
+  background-color: black;
+}
+
+.dark-mode #btn {
+    background-color: rgb(167, 167, 167);
+    color: black;
+}
+
+.dark-mode #btns {
+    background-color: orange;
+    color: black;
+}
+
+.dark-mode .link,
+.dark-mode .h2,
+.dark-mode h1,
+.dark-mode h2,
+.dark-mode p {
+  color: rgb(181, 181, 181);
+}
+
+.dark-mode .link:hover {
+  color: orange;
+}
